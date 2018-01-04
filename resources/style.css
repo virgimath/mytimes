@@ -20,11 +20,28 @@ header {
 }
 
 nav {
-  display: inline-block;
-  padding: 20px 10px;
+  padding: 0px 20px;
 }
 
 
-nav span {
+nav li {
+  display: inline-block;
   text-decoration: underline;
+}
+
+
+.main-container {
+  display: flex
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
