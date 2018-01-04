@@ -31,17 +31,25 @@ nav li {
 
 
 .main-container {
-  display: flex
+  display: flex;
+  border: 1px solid black;
 }
 
 .column.large {
   width: 630px;
+  border: 1px solid black;
 }
 
 .column.medium {
   width: 300px;
+  border: 1px solid black;
 }
 
 .column.small {
   width: 240px;
+  border: 1px solid black;
+}
+
+.mother, .monument, .orca, .spin, .burger, .research, .fbi, .cats, .brooklin, .cookie, .bites {
+  border: 1px solid black;
 }
