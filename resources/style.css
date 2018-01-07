@@ -1,3 +1,4 @@
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -26,7 +27,6 @@ nav {
 
 nav li {
   display: inline-block;
-  text-decoration: underline;
 }
 
 .main-container {
@@ -69,6 +69,8 @@ nav li {
   color: white;
 }
 
+
+
 .spin {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
 }
@@ -78,4 +80,34 @@ nav li {
 
 .cats {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+
+
+footer {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+footer .mytimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer span {
+  padding: 0px 5px;
+}
+
+a {
+  color: black;
 }
