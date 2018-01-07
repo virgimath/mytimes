@@ -40,8 +40,6 @@ nav li {
 }
 
 .column {
-  display: flex;
-  flex-direction: column;
   margin-right: 20px;
   border: 1px solid black;
 }
@@ -49,18 +47,11 @@ nav li {
 .column.large {
   width: 630px;
   display: flex;
+  flex-direction: column;
 }
 
-.column.medium {
-  width: 300px;
-}
-
-.column.small {
-  width: 240px;
-}
-
-.mother, .monument, .orca, .spin, .burger, .research, .fbi, .cats, .brooklin, .cookie, .bites {
-  border: 1px solid black;
+.main-story {
+  display: block;
 }
 
 .mother {
@@ -71,22 +62,90 @@ nav li {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  align-content: flex start;
+}
+
+.stories {
+  display: flex;
+  align-items: space-between;
+}
+
+.left-stories {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.right-stories {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+
+.column.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bites {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+
+.bite {
+display: block;
+background-color: WhiteSmoke;
+font-family: Verdana;
+font-size: 12px;
+color: DimGray;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+padding: 5px;
+}
+
+.mother, .monument, .orca, .spin, .burger, .research, .fbi, .cats, .brooklin, .cookie, .bites {
+  border: 1px solid black;
 }
 
 
 
 .spin {
+  display: flex;
   height: 300px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-  background-size: 630px 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
+
 .research {
+  display: flex;
+  height: 300px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
-  background-size: 630px 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .cats {
+  display: flex;
+  height: 300px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 
