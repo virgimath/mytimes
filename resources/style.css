@@ -31,6 +31,7 @@ nav li {
 
 .main-container {
   display: flex;
+  justify-content: center;
   align-items: flex-start;
   margin-top: 20px;
   font-family: Georgia;
@@ -45,15 +46,15 @@ nav li {
   border: 1px solid black;
 }
 
-.column .large {
+.column.large {
   width: 630px;
 }
 
-.column .medium {
+.column.medium {
   width: 300px;
 }
 
-.column .small {
+.column.small {
   width: 240px;
 }
 
@@ -66,7 +67,7 @@ nav li {
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
-  color: white;
+  color: white; 
 }
 
 
