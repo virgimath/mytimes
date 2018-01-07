@@ -48,6 +48,7 @@ nav li {
 
 .column.large {
   width: 630px;
+  display: flex;
 }
 
 .column.medium {
@@ -63,20 +64,25 @@ nav li {
 }
 
 .mother {
+  display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  background-size: 630px 300px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
-  color: white; 
+  color: white;
 }
 
 
 
 .spin {
+  height: 300px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  background-size: 630px 300px;
 }
 .research {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  background-size: 630px 300px;
 }
 
 .cats {
